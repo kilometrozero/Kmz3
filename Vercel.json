@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [{ "src": "next.config.js", "use": "@vercel/next" }],
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "MONGODB_DB": "@mongodb_db",
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "STRIPE_PUBLIC_KEY": "@stripe_public_key",
+    "ADMIN_PASSWORD": "@admin_password",
+    "SITE_URL": "@site_url"
+  }
+}
