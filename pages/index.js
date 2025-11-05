@@ -1,26 +1,8 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Shop from "../components/Shop";
-import About from "../components/About";
-import Contact from "../components/Contact";
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Shop />
-      <About />
-      <Contact />
-      <footer style={{
-        padding: "40px 5%",
-        background: "#000",
-        textAlign: "center",
-        borderTop: "1px solid var(--border)",
-        color: "#777"
-      }}>
-        © 2025 KMZ — Todos los derechos reservados. | Diseñado con 🔥 por KilometroZero
-      </footer>
-    </>
+    <div style={{ padding: "80px", textAlign: "center" }}>
+      <h1 style={{ fontSize: "3em", color: "#ff0055" }}>KMZ está online 🚀</h1>
+      <p style={{ fontSize: "1.2em", color: "#aaa" }}>Tu tienda urbana está lista.</p>
+    </div>
   );
 }
